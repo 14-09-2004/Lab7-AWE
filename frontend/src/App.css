@@ -1,0 +1,23 @@
+body { font-family: Arial, sans-serif; background: #eef2fa; margin: 0; }
+.container { max-width: 640px; margin: 28px auto; padding: 0 16px; }
+h1 { color: #1e3c72; }
+.tabs { display: flex; gap: 8px; margin-bottom: 14px; }
+.tab { flex: 1; border: 1px solid #1e3c72; background: #fff; color: #1e3c72; padding: 9px; border-radius: 6px; cursor: pointer; font-size: 14px; }
+.tab.active { background: #1e3c72; color: #fff; }
+.box { background: #fff; border-radius: 10px; padding: 18px 22px; box-shadow: 0 2px 8px rgba(0,0,0,.12); }
+.box h2 { margin-top: 0; color: #1e3c72; }
+.row { display: flex; gap: 8px; margin-bottom: 10px; }
+.row input { flex: 1; padding: 9px; border: 1px solid #aab6d3; border-radius: 6px; font-size: 15px; }
+.btn { border: 0; border-radius: 6px; padding: 8px 12px; margin-left: 6px; color: #fff; cursor: pointer; font-size: 14px; }
+.btn.primary { background: #1e3c72; margin-left: 0; }
+.btn.success { background: #2e8b57; }
+.btn.danger { background: #c0392b; }
+.error { background: #fdecea; color: #b3261e; border-left: 4px solid #c0392b; padding: 8px 12px; margin-bottom: 10px; border-radius: 4px; }
+.list { list-style: none; padding: 0; margin: 0; }
+.list li { display: flex; justify-content: space-between; align-items: center; padding: 10px 4px; border-bottom: 1px solid #e3e8f4; }
+.list li.done span:first-child { text-decoration: line-through; color: #888; }
+.muted { color: #777; }
+.message { font-size: 20px; background: #eef2fa; border-left: 4px solid #1e3c72; padding: 12px; }
+table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+th, td { border: 1px solid #c7d1e6; padding: 8px 10px; text-align: left; }
+th { background: #1e3c72; color: #fff; }
